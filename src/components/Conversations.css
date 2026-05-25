@@ -308,7 +308,9 @@
     justify-content: flex-start;
 }
 
-.message.assistant {
+.message.model,
+.message.assistant,
+.message.bot {
     justify-content: flex-end;
 }
 
@@ -318,16 +320,21 @@
     border-radius: 8px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     position: relative;
+    background: white; /* fallback */
 }
 
 .message.user .message-bubble {
     background: white;
     border-top-left-radius: 0;
+    border-top-right-radius: 8px;
 }
 
-.message.assistant .message-bubble {
+.message.model .message-bubble,
+.message.assistant .message-bubble,
+.message.bot .message-bubble {
     background: #d9fdd3;
     border-top-right-radius: 0;
+    border-top-left-radius: 8px;
 }
 
 .message-content {
@@ -354,6 +361,7 @@
 .message-tokens {
     font-size: 0.65rem;
     opacity: 0.7;
+    white-space: nowrap;
 }
 
 /* Loading States */

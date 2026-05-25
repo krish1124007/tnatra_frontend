@@ -8,7 +8,7 @@ const Navbar = ({ user, onLogout, currentView, onNavigate }) => {
             <div className="navbar-container">
                 <div className="navbar-brand">
                     <div className="logo">
-                        <div className="logo-text">Tantra Mantra</div>
+                        <div className="logo-text">Hemraj Ladda</div>
                     </div>
                 </div>
 
