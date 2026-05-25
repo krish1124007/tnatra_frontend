@@ -56,7 +56,7 @@ const Login = () => {
                 <div className="login-content">
                     <div className="login-header">
                         <div className="logo-container">
-                            <h1>Zatpat Loans</h1>
+                            <h1>Hemraj Ladda</h1>
                         </div>
                         <p className="login-subtitle">Sign in to access your dashboard</p>
                     </div>
